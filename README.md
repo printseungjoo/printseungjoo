@@ -7,7 +7,7 @@
 ## 🚀 프로젝트 경험
 
 - [`Outstanding Spots`](https://github.com/printseungjoo/outstandingspots) 사용자의 위치를 기반으로 S대학교 제휴 매장을 찾아주고, 각 매장의 할인 정보와 안내 사항을 알려주는 웹사이트 (2024.12.12 ~ 2025.02.26, 2026.02.20 - 2026.03.14) [`1인 프로젝트`] : <br/> ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![Emotion](https://img.shields.io/badge/Emotion-DB7093?style=flat&logo=emotion&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![Emotion](https://img.shields.io/badge/Emotion-DB7093?style=flat&logo=emotion&logoColor=white) ![Storybook](https://img.shields.io/badge/Storybook-FF4785?style=flat&logo=storybook&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
 - [`BMI 변화 계산기`](https://github.com/printseungjoo/bmiChangeCalculator) 키가 지금과 똑같을 때 몇 kg까지 빼야/늘려야 BMI(비만도 지수) 전/다음 단계로 넘어갈 수 있을까 계산해주는 웹사이트 (2025.05.24 ~ 2025.06.05, 2026.04.07 ~ 2026.04.09) [`1인 프로젝트`] : <br/> ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![Vanilla-extract](https://img.shields.io/badge/Vanilla--extract-5C3EE8?style=flat&logoColor=white)
@@ -27,6 +27,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![Vanilla-extract](https://img.shields.io/badge/Vanilla--extract-5C3EE8?style=flat&logoColor=white)
 ![Emotion](https://img.shields.io/badge/Emotion-DB7093?style=flat&logo=emotion&logoColor=white)
+![Storybook](https://img.shields.io/badge/Storybook-FF4785?style=flat&logo=storybook&logoColor=white)
 <br/>
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
