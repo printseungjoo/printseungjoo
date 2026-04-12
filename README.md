@@ -63,10 +63,5 @@
 
 ---
 
-### 📌 백준 활동
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=binarygirl)](https://solved.ac/binarygirl)
-
----
-
 ### 📫 연락처
 📧 이메일: printseungjoo@gmail.com
