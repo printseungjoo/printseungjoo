@@ -1,105 +1,143 @@
-# 프론트엔드 개발자 함승주
+# 함승주 | Frontend Developer
 
-사용자 경험(UX) 최적화에 몰입하며 서비스의 완성도를 높이는 성장형 개발자
- 
-printseungjoo@gmail.com  
-https://github.com/printseungjoo
+### 실사용자 2,900명 서비스를 혼자 개발부터 운영까지 책임져 온 프론트엔드 개발자
 
-활성 사용자 2,700명 이상을 유치한 웹 서비스 개발 및 리팩토링 경험이 있으며, LCP 로딩 속도를 52.6% 단축하고 불필요한 JavaScript 코드를 대폭 감소시키는 등 웹 성능 최적화 역량을 보유하고 있습니다. 컴퓨터과학 전공 지식과 영어 소통 능력을 바탕으로 팀 내 기술적 이슈를 해결하고 싶습니다.
+##### 실서비스 2개 기획, 개발, 배포, 운영 | 활성 사용자 2,900명+ | 누적 이벤트 23,000회+ | SEO 100점 | 정보처리기사
 
 ---
 
-## SKILLS
+## Profile
 
-**LANGUAGE:** JavaScript, TypeScript, HTML, CSS  
-**FRAMEWORK:** React, Styled-component, Emotion  
-**BACKEND, DB:** Node.js, MongoDB
-
----
-
-## PROJECTS
-
-### OUTSTANDING SPOTS (위치 기반 대학 제휴 매장 할인 정보 서비스)
-
-**2024.12 - 현재**
-
-1인 기획, 디자인, 풀스택 개발, 운영
-
-**GitHub 링크:** https://github.com/printseungjoo/outstandingspots  
-**웹 링크:** https://outstandingspots.com/
-
-#### 기술 스택
-
-**FRONTEND:** React, TypeScript, Styled-component, Vite  
-**BACKEND, DB:** Node.js, MongoDB  
-**MAP:** Leaflet, OpenStreetMap  
-**AUTHENTICATION:** Firebase, SMTP
-
-#### 핵심 서비스 성과
-
-단발성 이벤트 이후 1년 동안 정체되었던 서비스의 공백 원인을 분석하고, UX 및 성능 리팩토링을 단행함.  
-그 결과 방학임에도 한 달 내내 유저가 찾아오고 활발한 인터랙션(이벤트 3,300회 이상,사용자당 조회수 46회)이 일어나는 지속 가능한 웹 서비스로 부활  
-(전체 활성 사용자 2,700명 이상, 조회수 6,600회 이상, 이벤트 수 19,000회 이상)
-
-#### 사용자 경험(UX) 및 인터페이스(UI) 전면 개편
-
-- **지도 중심의 공간 활용성 극대화** : 지도와 카테고리가 분리되어 시인성이 떨어졌던 구조를 개선하기 위해 지도를 화면 전체에 꽉 차게 배치하고 하단 퀵 카테고리 필터를 도입함. 사용자가 지도 위에서 제휴 매장 위치를 한눈에 파악하고 즉시 필터링할 수 있도록 동선 최적화
-- **타겟 맞춤형 다국어(KOR/ENG) 지원** : 글로벌 캠퍼스(외국인 학생 비중이 높은 학업 환경)의 특성을 반영한 한/영 토글 전환 기능을 신규 구현하여 캠퍼스 내 모든 유저의 접근성과 편의성 제고
-- **통합 검색 기능 도입** : 매장 이름 혹은 테마로 매장을 검색할 수 있는 실시간 검색바를 구축하여 원하는 제휴 정보나 할인 혜택에 도달하는 탐색 시간 단축
-
-#### 리팩토링 후 성능 최적화(LIGHTHOUSE 지표 기반) 2025.05 → 2026.03
-
-**개선 이유:** 지도 중심 서비스 특성상 초기 로딩 과정에서 지도 SDK 중복 초기화, 반복적인 API 호출 및 불필요한 마커 갱신이 발생해 렌더링 비용과 미사용 JavaScript가 증가하는 문제를 확인
-
-**개선 방법:** 지도 인스턴스 재사용 및 마커 갱신 로직을 최적화하고 SDK 중복 초기화를 제거했으며, API 응답 캐싱과 Kakao Maps → Leaflet 전환을 통해 지도 렌더링 구조를 경량화. Vite 기반 모듈 구조로 재구성하고 불필요한 외부 스크립트와 비표준 HTML 구조를 함께 정리
-
-**개선 결과**
-
-| 성능 지표 및 항목 | Before | After | 개선 효과 |
-|---|---:|---:|---|
-| 최대 콘텐츠 페인트(LCP) | 1.9초 | 0.9초 | 로딩 속도 52.6% 단축 |
-| Performance 점수 | 92점 | 99점 | 전반적인 성능 점수 7점 향상 |
-| 미사용 JavaScript 예상 용량 (Dead Code) | 303KiB | 131KiB | Dead Code 172 KiB 절감 |
-| 웹 표준/보안(Best Practices) | 31점 | 73점 | 신뢰성 및 보안 지표 42점 향상 |
-| 웹 접근성(Accessibility) | 96점 | 100점 | 접근성 지표 만점 달성 |
+| 구분 | 내용 |
+| --- | --- |
+| 성명 | 함승주 (HAM SEUNGJOO) |
+| 이메일 | printseungjoo@gmail.com |
+| 자격 · 어학 | 정보처리기사, OPIc IH (영어) |
+| GitHub | [github.com/printseungjoo](https://github.com/printseungjoo) |
 
 ---
 
-### MBTINDUCE(MBTI 기반 맞춤형 AI 에이전트 서비스)
+## SUMMARY
 
-**2026.03 - 2026.06**
+React와 TypeScript를 기반으로 실제 사용자가 이용하는 웹 서비스를 개발해 온 프론트엔드 개발자입니다. 기능 구현에 그치지 않고 사용자 경험과 프론트엔드 구조를 함께 개선하는 데 집중해 왔습니다.
 
-본인의 역할: 기획, 디자인, 프론트엔드 개발, 배포  
-팀원 A의 역할: 기획, 백엔드 개발, AI 튜닝
+지도 중심의 탐색 UI 재설계, 렌더링 구조 개선, SSE 기반 실시간 응답 UI, 디자인 시스템을 구축하였으며, 배포 이후에도 베타 테스트를 바탕으로 문제를 발견하고 개선한 경험이 있습니다.
 
-**GitHub 링크:** https://github.com/printseungjoo/MBTInduce  
-**웹 링크:** https://www.mbtinduce.com/
+메타데이터와 구조화 데이터 리팩토링을 통해 **Lighthouse SEO 83 → 100점, Best Practices 31 → 92점**으로 품질을 향상시켰습니다.
 
-#### 기술 스택
+현재는 **활성 사용자 2,900명 이상**이 이용하는 단독 기획, 개발 서비스를 운영하고 있습니다.
 
-**FRONTEND:** React, TypeScript, Emotion  
-**BACKEND:** Node.js, Express.js  
-**AUTHENTICATION:** Google OAuth  
-**AI:** OpenAI API, Prompt Engineering, Personality-based response tuning
-
-#### 프론트엔드 디자인 시스템 개선
-
-Emotion ThemeProvider 기반 디자인 시스템 구축 및 적용: Emotion ThemeProvider를 활용해 색상 토큰을 중앙 관리하여 하드코딩된 색상 코드를 0건으로 유지. 총 65개의 UI 컴포넌트에 일관된 디자인 시스템을 적용하여 코드 유지보수성 및 확장성 향상 (총 231회의 theme.colors 참조 활용)
-
-#### 글로벌 타겟 서비스를 고려한 프론트엔드 및 콘텐츠 구축
-
-서비스 내 모든 UI 텍스트와 콘텐츠를 영어로 기획·구현하여 향후 해외 사용자 확장성을 고려한 아키텍처 설계
-
-프로젝트 전반의 문서화 및 버전 관리를 영어 기반으로 수행하여 글로벌 개발 프로세스 정립
-
-#### 14인 베타 테스트를 통해 UI 시인성 개선 및 장애 대응
-
-다크/라이트 모드 전환 시 색상 미지정으로 인한 텍스트 가인성 이슈를 발굴 및 수정
-
-회원가입 후 로그인 과정에서 발생한 비정상 장애를 추적하여 해결하고 테스터 재검증을 통해 서비스 안전성 확보
+사용자에게 보이는 화면부터 이를 안정적으로 동작하게 만드는 구조까지 책임지는 프론트엔드 개발자를 지향하고 있습니다.
 
 ---
 
-## LANGUAGE PROFICIENCY
+## 기술 스택
 
-- OPIC IH (INTERMEDIATE HIGH) - English
+| 구분 | 기술 |
+| --- | --- |
+| **프론트엔드** | React, TypeScript, JavaScript, HTML, CSS |
+| **스타일, 빌드** | Emotion, styled-components, Vite |
+| **백엔드, 배포** | Node.js, Express, MongoDB, Railway |
+| **AI 활용** | Cursor, ChatGPT - 구현 방향 탐색, 반복 코드 작성, 코드 리뷰, 리팩터링 후보 탐색에 활용 |
+
+---
+
+# 프로젝트 경력
+
+**실서비스 2개 기획, 개발, 유지보수, 운영**
+
+## Outstanding Spots
+
+**단독 기획, 디자인, 풀스택 개발, 배포, 유지보수, 운영**  
+`2024.12 ~ 2026.09 (개발 8개월, 운영 중)`
+
+**위치 기반 대학 제휴 매장 할인 지도 서비스**
+
+제휴 매장 **50곳+** | 활성 사용자 **2,900명+** | 누적 이벤트 **23,000회+** (2025.02.26 ~ 2026.09.29, GA 기준)
+
+
+`React` `TypeScript` `Vite` `styled-components` `React Router` `React Leaflet` `Node.ts` `Express` `MongoDB`
+
+[서비스](https://outstandingspots.com/) | [GitHub](https://github.com/printseungjoo/outstandingspots) | [화면별 기능 매뉴얼](https://drive.google.com/file/d/1rhclYA0KqOUFmDs2RTQgxbaqRmm63uq5/view?usp=sharing)
+
+### 역할
+
+- 학생, 점주, 관리자 **3개 사용자군의 웹 서비스 기획, 디자인, 풀스택 개발, 배포, 유지보수, 운영까지 단독 개발, 개편 2회**
+
+### 성과
+
+#### [서비스 운영 자동화] 역할 기반 관리 화면 도입으로 매장 정보 수정 절차 3단계 → 1단계
+
+- **문제 |** 운영 병목: **점주 요청 → 개발자 확인 → DB 직접 수정**의 3단계 구조로 개발자 반복 개입
+- **판단 |** 권한 분리: 점주, 관리자가 직접 수정하되 오남용은 서버에서 통제하는 셀프서비스 구조 설계
+- **실행 |** 점주, 관리자 관리 화면 구현, 역할별 쿠키 3종(12시간) 분리 및 Rate Limit 3종 적용
+- **결과 |** 점주, 관리자의 직접 수정 1단계로 단축, 개발자 개입 없는 매장 정보 갱신 구축
+
+#### [지도 렌더링 구조 개선] Kakao Maps SDK를 React Leaflet으로 전환해 중복 로드와 재초기화 제거
+
+- **문제 |** 지도 생명주기: 여러 컴포넌트가 SDK를 각자 로드하고, 상태가 바뀔 때마다 지도가 재생성
+- **판단 |** 라이브러리 선정: SDK 유지 최적화와 Leaflet 전환을 번들 크기, 운영 비용, 유지보수로 비교
+- **실행 |** SDK 로드 Promise 캐싱, useRef 인스턴스 재사용, 마커 갱신 분리 후 React Leaflet 전환
+- **결과 |** 지도와 마커를 React 컴포넌트 단위로 관리, 필터링은 useMemo로 조건 변경 시에만 재계산
+
+#### [UI/UX 개선]
+
+지도와 카테고리가 분리된 탐색 구조를 **전체 화면 지도 중심으로 재설계**하고, 지도 위 카테고리 필터, 자동완성 검색, 한영 전환을 적용해 매장 탐색 흐름 개선
+
+#### [SEO, 웹 표준]
+
+메타데이터와 구조화 데이터 정비로 **Lighthouse SEO 83 → 100점, Best Practices 31 → 92점**
+
+---
+
+## MBTInduce
+
+**프론트엔드 전담, UI UX 디자인, 유지보수 (2인 팀)**  
+`2026.03 ~ 2026.06 (개발 4개월)`
+
+**MBTI 성향별 말투로 응답하는 AI 대화 서비스**
+
+베타 테스트 **14명** | **영어 기반** UI와 버전 관리
+
+
+`React` `TypeScript` `Vite` `Emotion` `React Router` `Node.js` `Express` `Prisma` `PostgreSQL` `OpenAI API`
+
+[서비스](https://www.mbtinduce.com/) | [GitHub](https://github.com/printseungjoo/MBTInduce) | [화면 정의서](https://drive.google.com/file/d/11kU227K9eItTz7KiAYHeTyBycoPvBwxE/view?usp=sharing)
+
+### 역할
+
+- **React, TypeScript, Emotion 기반 프론트엔드 전담:** 기획, UI UX 디자인, 프론트엔드, 배포, 유지보수 (기획, 백엔드는 팀원)
+- **API 명세 협의, 코드 리뷰:** 백엔드 개발자와 연동 방식 협의, 백엔드 코드 리뷰 참여, Git 사용 가이드 공유
+
+### 성과
+
+#### [비동기 처리, 실시간 스트리밍] SSE 도입으로 AI 응답을 생성과 동시에 출력
+
+- **문제 |** 사용자 대기 경험: 응답 생성이 끝난 뒤 한꺼번에 표시해 진행 여부를 알 수 없음
+- **판단 |** 통신 방식 선정: 서버에서 클라이언트로만 흐르는 데이터라 WebSocket 대신 SSE 채택
+- **실행 |** API 계층 설계: apiFetch(REST), apiStream(SSE) 분리, 이벤트 3종별 처리
+- **결과 |** 응답 토큰 누적 렌더링으로 첫 글자부터 즉시 표시, 비정상 종료 스트림도 오류 처리
+
+#### [QA, 장애 대응] 베타 테스트 14명 운영으로 출시 전 결함 2건 발견, 해결
+
+**결함 1. 인증 장애:** 회원가입은 성공하는데 이어지는 로그인이 실패한다는 테스터 제보
+
+- **원인 |** 배포 환경 분석: 회원 데이터 저장은 정상, HTTPS 프록시 뒤에서 세션 쿠키가 전달되지 않음
+- **실행 |** 쿠키 정책 수정: Express session 프록시 신뢰 설정, 환경별 Secure, SameSite 분리, 제보자 재검증
+
+**결함 2. UI 가독성:** 다크 모드에서 색상 미지정 텍스트가 배경과 겹쳐 읽히지 않는 문제
+
+- **실행:** 색상 미지정 텍스트에 명시적 색상 값을 적용하고, 다크 모드 등 시스템 테마 환경에서 대비와 가독성을 재검증
+
+#### [디자인 시스템]
+
+Emotion ThemeProvider로 **색상 토큰 일원화, UI 컴포넌트 63개 적용, 하드코딩 색상 0건**
+
+---
+
+# 자격, 어학, 수상
+
+| 구분 | 명칭 | 발급기관 | 취득 |
+| --- | --- | --- | --- |
+| 자격 | **정보처리기사** | 한국산업인력공단 | 2026.09 |
+| 어학 | **OPIc 영어 IH (Intermediate High)** | ACTFL, 멀티캠퍼스 | 2026.08 |
