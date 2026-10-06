@@ -35,7 +35,7 @@ React와 TypeScript를 기반으로 실제 사용자가 이용하는 웹 서비�
 
 | 구분 | 기술 |
 | --- | --- |
-| **프론트엔드** | React, TypeScript, JavaScript, HTML, CSS |
+| **프론트엔드** | Next.js, React, TypeScript, JavaScript, HTML, CSS |
 | **스타일, 빌드** | Emotion, styled-components, Vite |
 | **백엔드, 배포** | Node.js, Express, MongoDB, Railway |
 | **AI 활용** | Cursor, ChatGPT - 구현 방향 탐색, 반복 코드 작성, 코드 리뷰, 리팩터링 후보 탐색에 활용 |
